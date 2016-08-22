@@ -1,0 +1,117 @@
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        width: auto;
+    }
+
+    .me {
+        width: auto;
+    }
+
+    .me-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .me-right {
+        height: auto;
+        width: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .me-left {
+        height: auto;
+        width: auto;
+    }
+
+    .wrapper .nav-bar {
+        width: 100%;
+        position: absolute;
+    }
+
+    .nav-element {
+        display: none;
+    }
+
+    .school {
+        width: auto;
+    }
+
+    .school-container {
+        flex-direction: column;
+    }
+
+    .school-right {
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .school-left {
+        align-items: center;
+        margin-top: -20px;
+    }
+
+
+    .uw-img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .employment-container {
+      flex-direction: column;
+    }
+
+    .employment-card {
+      width: auto;
+    }
+
+    .awards {
+        width: auto;
+    }
+
+
+    .skills {
+        height: auto;
+    }
+
+    .skills-right {
+        height: auto;
+    }
+
+    .skills-left {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .skills-container {
+        flex-direction: column-reverse;
+    }
+
+    .contact {
+        width: auto;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
+    .contact-right {
+        justify-content: flex-start;
+        padding-top: 0;
+    }
+
+    .contact-left {
+        justify-content: flex-end;
+        padding-bottom: 0;
+    }
+
+    .contact-link {
+        padding: 10px;
+    }

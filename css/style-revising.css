@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #EEEEEE; }
+
+.wrapper {
+  width: 100%; }
+  .wrapper .navbar {
+    position: fixed;
+    width: inherit;
+    background: rgba(66, 87, 106, 0.7); }
+    .wrapper .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .wrapper .navbar .container a {
+        font-weight: 400;
+        padding: 10px 20px;
+        margin: 0; }
+      .wrapper .navbar .container .logo {
+        font-weight: 300;
+        font-size: 36px;
+        margin: 10px 0; }
+
+.me {
+  height: 408px;
+  background: center url("/img/seattle.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row; }
+  .me .me-left {
+    width: 50%;
+    text-align: center; }
+  .me .me-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.inline {
+  display: inline; }
+
+a {
+  color: #FFFFFF; }
+
+a:hover {
+  color: #DDDDDD;
+  text-decoration: none;
+  cursor: pointer; }

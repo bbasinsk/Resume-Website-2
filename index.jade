@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name='description', content='This is my resume website!')
+    script(src='https://use.fontawesome.com/efa1f976d6.js')
+    link(type='text/css', rel='stylesheet', href='css/style.css')
+    link(rel="stylesheet" type="text/css" media="mobile" href="css/mobile.css")
+    link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,700', rel='stylesheet')
+    // for FF, Chrome, Opera
+    link(rel='icon', type='image/png', href='assets/favicons/favicon-16x16.png', sizes='16x16')
+    link(rel='icon', type='image/png', href='assets/favicons/favicon-32x32.png', sizes='32x32')
+    // for IE
+    link(rel='icon', type='image/x-icon', href='assets/favicons/favicon.ico')
+    link(rel='shortcut icon', type='image/x-icon', href='assets/favicons/favicon.ico')
+    title Ben Basinski - Resume
+  body
+    .wrapper
+      include includes/navbar.jade
+      include includes/me.jade
+      include includes/school.jade
+      include includes/employment.jade
+      include includes/awards.jade
+      include includes/skills.jade
+      include includes/contact.jade
+
+    script.
+      function scrollToMe() {
+      window.scrollTo(0, 0);
+      }
+      function scrollToSchool() {
+      window.scrollTo(0, 408-72);
+      }
+      function scrollToEmployment() {
+      window.scrollTo(0, 408*2 - 72);
+      }
+      function scrollToAwards() {
+      window.scrollTo(0, 408*3 - 72);
+      }
+      function scrollToSkills() {
+      window.scrollTo(0, 408*4 - 72);
+      }
+      function scrollToContact() {
+      window.scrollTo(0, 408*5 - 72);
+      }

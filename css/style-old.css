@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF; }
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #25aac0;
+  margin: 0 auto; }
+
+.wrapper .nav-bar {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(66, 87, 106, 0.7); }
+
+.nav-center {
+  height: 72px;
+  display: flex;
+  align-items: center; }
+
+.nav-element {
+  padding: 20px;
+  font-size: 14pt;
+  font-weight: 300;
+  cursor: pointer; }
+
+.nav-element:hover {
+  color: #DDDDDD; }
+
+.logo {
+  display: inline;
+  font-size: 36pt;
+  font-weight: 300;
+  padding: 0 20px;
+  pointer-events: none; }
+
+strong {
+  font-weight: 700; }
+
+.me {
+  height: 408px;
+  background: center url("assets/img/seattle.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.me-container {
+  display: flex; }
+
+.school-container {
+  display: flex; }
+
+.me-left {
+  height: 336px;
+  width: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.me-right {
+  height: 336px;
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.right .info-element {
+  padding: 2px; }
+
+.school {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #42576a; }
+
+.section-title div {
+  text-align: center;
+  font-size: 18pt;
+  padding-top: 15px;
+  padding-bottom: 0; }
+
+.school-left {
+  height: 336px;
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
+
+.school-right {
+  height: 336px;
+  width: 336px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.employment {
+  background: #2a3743;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.employment-container {
+  display: flex;
+  flex-direction: row; }
+
+.employment-left {
+  height: 336px;
+  width: 336px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.employment-right {
+  height: 336px;
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.awards {
+  background: #42576a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.awards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+
+.daniels:hover {
+  color: #DDDDDD; }
+
+.skills {
+  background: #2a3743;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.skills-container {
+  display: flex;
+  flex-direction: row; }
+
+.skills-left {
+  height: 350px;
+  width: 250px;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.skills-left h2 {
+  font-size: 14pt; }
+
+.skills-left h4 {
+  display: flex;
+  justify-content: space-between; }
+
+.skills-right {
+  height: 350px;
+  width: 250px;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.skills-right h2 {
+  font-size: 14pt; }
+
+.skills-right h4 {
+  display: flex;
+  justify-content: space-between; }
+
+.contact {
+  background: #42576a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px; }
+
+.contact-left {
+  height: 336px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.contact-right {
+  height: 336px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.contact-link {
+  font-size: 10pt;
+  font-weight: 300;
+  color: #DDDDDD;
+  padding: 5px; }
+
+.contact-link:hover {
+  color: #FFFFFF; }
+
+.contact-link .fa {
+  font-size: 14pt;
+  width: 25px; }
+
+.section {
+  height: 408px;
+  width: 100%; }
+
+.font-light {
+  font-weight: 300; }
+
+.font-regular {
+  font-weight: 400; }
+
+.font-bold {
+  font-weight: 700; }
+
+.small {
+  font-size: 9pt; }
+
+.medium {
+  font-size: 14pt; }
+
+.date {
+  font-size: 8pt;
+  font-weight: 300; }
+
+.divider-me {
+  width: 70px; }
+
+.grey {
+  color: #EEEEEE; }
+
+h1 {
+  font-size: 16pt; }
+
+h2 {
+  font-size: 12pt;
+  font-weight: 400;
+  margin: 0; }
+
+h4 {
+  font-size: 10pt;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 4px; }
+
+@media (max-width: 960px) {
+  a {
+    display: flex;
+    justify-content: center; }
+
+  .wrapper {
+    width: auto; }
+
+  .me {
+    width: auto; }
+
+  .me-container {
+    flex-direction: column-reverse; }
+
+  .me-right {
+    height: auto;
+    width: auto;
+    align-items: center; }
+
+  .me-left {
+    height: auto;
+    width: auto;
+    padding-bottom: 16px; }
+
+  .wrapper .nav-bar {
+    width: 100%;
+    position: absolute; }
+
+  .nav-element {
+    display: none; }
+
+  .school {
+    width: auto; }
+
+  .school-container {
+    flex-direction: column; }
+
+  .school-right {
+    justify-content: center;
+    align-items: flex-start; }
+
+  .school-left {
+    align-items: center;
+    margin-top: -20px; }
+
+  .uw-img {
+    width: 50%;
+    height: 50%; }
+
+  .awards {
+    width: auto; }
+
+  .employment {
+    width: auto; }
+
+  .employment-container {
+    flex-direction: column-reverse;
+    align-items: center; }
+
+  .employment-right {
+    align-items: center;
+    justify-content: flex-end;
+    height: 150px; }
+
+  .employment-right .date {
+    margin-bottom: 10px; }
+
+  .employment-left {
+    justify-content: center; }
+
+  .store-img {
+    width: 50%;
+    height: 50%; }
+
+  .skills {
+    height: auto; }
+
+  .skills-right {
+    height: auto; }
+
+  .skills-left {
+    height: auto;
+    margin-bottom: 25px; }
+
+  .skills-container {
+    flex-direction: column-reverse; }
+
+  .contact {
+    width: auto; }
+
+  .contact-container {
+    flex-direction: column;
+    padding-bottom: 0;
+    align-items: center; }
+
+  .contact-right {
+    justify-content: flex-start; }
+
+  .contact-left {
+    justify-content: flex-end; }
+
+  .contact-link {
+    padding: 10px; } }

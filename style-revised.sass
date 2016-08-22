@@ -1,0 +1,65 @@
+$primary-color: #EEEEEE
+
+body
+  margin: 0
+  font-family: 'Roboto', sans-serif
+  color: $primary-color
+
+.wrapper
+  width: 100%
+
+  .nav-bar
+    position: fixed
+    width: inherit
+    background: rgba(66, 87, 106, .7)
+
+    .container
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+
+      a
+        font-weight: 400
+        padding: 10px 20px
+        margin: 0
+
+      .logo
+        font-weight: 300
+        font-size: 36px
+        margin: 10px 0
+
+.me
+  // TODO: Remove
+  height: 408px
+  // End Remove
+  background: center url("/img/seattle.jpg")
+  background-size: cover
+  display: flex
+  flex-direction: row
+
+  .me-left
+    width: 50%
+    text-align: center
+
+  .me-right
+    width: 50%
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+
+
+
+
+.inline
+  display: inline
+
+
+a
+  color: #FFFFFF
+
+a:hover
+  color: #DDDDDD
+  text-decoration: none
+  cursor: pointer
